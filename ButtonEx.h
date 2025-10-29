@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2023-2024 SpoofSIP (http://www.spoofsip.org)
+ * Copyright (C) 2023-2025 SpoofSIP (http://www.spoofsip.org)
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -36,3 +36,4 @@ public:
 	void OnMouseMove(UINT nFlags, CPoint point);
 	BOOL EnableWindow(BOOL bEnable = TRUE);
 };
+
