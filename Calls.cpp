@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2023-2024 SpoofSIP (http://www.spoofsip.org)
+ * Copyright (C) 2023-2025 SpoofSIP (http://www.spoofsip.org)
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -902,3 +902,4 @@ void Calls::SaveKey()
 	str.Format(_T("%d"), lastKey);
 	WritePrivateProfileString(section, _T("callsLastKey"), str, accountSettings.iniFile);
 }
+
